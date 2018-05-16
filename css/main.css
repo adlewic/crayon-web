@@ -18,31 +18,19 @@ body{
 p { margin:5px 0 10px 0; }
 
 
-head{
-    height: 100px;
-    margin: 0%;
-    z-index: 1;
-    background-color: aqua;
-}
-
 
 
 nav{   
+    background-color: white;
     z-index:+1;
     font-family: "AauxPro-Regular";
     text-transform: uppercase;
     position: sticky;
     top: 0%;
-    background-color: white;
-    height:0px
-    width;
-
 }
 
 
-    nav ul li{
-        width: 100%;
-    }   
+
 
 
 
@@ -87,17 +75,17 @@ nav{
 
 
 .division h3{
-    text-transform: uppercase;
-    border: 1px pink solid;
-    font-family: "AauxPro-Regular";
-    font-size: 12pt;
-    height: auto;
-    width: auto;
-    float: left;
-    transform: rotate(90deg);
-    transform-origin: top left;
-    margin-left: 70px;
-    margin-top: 0px; 
+        text-transform: uppercase;
+        border: 1px pink solid;
+        font-family: "AauxPro-Regular";
+        font-size: 12pt;
+        height: auto;
+        width: auto;
+        float: left;
+        transform: rotate(90deg);
+        transform-origin: top left;
+        margin-left: 70px;
+        margin-top: 0px; 
 
 }
 
@@ -163,13 +151,56 @@ text-align: center;}
 
 
 
+.description{
+    text-transform: uppercase;
+    font-family: "AauxPro-Regular";
+    text-align:center;
+    margin-left: 30%;
+}
+
+h2{
+    text-transform: uppercase;
+    border: 1px pink solid;
+    font-family: "AauxPro-Regular";
+    font-size: 12pt;
+    height: auto;
+    width: 50%;
+    margin-left: 30%
+    margin-top: 0px; 
+    text-align:right;
+}
 
 
 
 
+.carousel{
+    border: 1PX solid green;
+    width:  80%;
+  height: auto;
+}
+
+.carousel-item{
+    border: 1PX solid black;
+    widows: 80%;
+    height: 100%;
+}
 
 
+.carousel-item.p{
+    background-color: grey;
+    
+}
 
+
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
 
 
 
