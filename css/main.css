@@ -21,19 +21,22 @@ p { margin:5px 0 10px 0; }
 
 
 nav{   
-    background-color: white;
     z-index:+1;
     font-family: "AauxPro-Regular";
     text-transform: uppercase;
     position: sticky;
     top: 0%;
+    width: 10%;
+    background-color: white;
 }
 
+nav ul{
+    width: 20%;
+}
 
-
-
-
-
+nav ul li{
+    width: 100%;
+}
 
 #a-frame{
     /* border :1px solid black; */
@@ -43,7 +46,7 @@ nav{
 
 
     #about h2{
-        font-family: "AauxPro-LightSC";
+        font-family:"AauxPro-LightSC";
         width: 20%;
         text-transform: uppercase;
         margin-right:100px;
@@ -62,7 +65,7 @@ nav{
         font-size: .8em;
         float: left;
         padding: 0px;
-        margin: 0%;
+        margin-top:0%;
 }
 
 .a-box{
@@ -74,20 +77,41 @@ nav{
 }
 
 
+.division{
+    margin-top: 10px;
+}
+
 .division h3{
         text-transform: uppercase;
-        border: 1px pink solid;
-        font-family: "AauxPro-Regular";
+        /* border: 1px pink solid; */
+        font-family: "Helvetica";
+        font-weight: 500;
         font-size: 12pt;
         height: auto;
-        width: auto;
         float: left;
         transform: rotate(90deg);
         transform-origin: top left;
         margin-left: 70px;
-        margin-top: 0px; 
+        margin-top: 0px;
 
 }
+
+.division ul{
+    text-align: left;
+    /* border: 1px solid crimson; */
+    float: left;
+    height:200px;
+ 
+}
+
+.division ul li{
+    text-transform: capitalize;
+    list-style-type: none;
+    font-size: .8em;
+    line-height: 2em;
+}
+
+
 
 
 .m1{ 
@@ -98,9 +122,9 @@ nav{
     margin-left: 50px;
     margin-top: 0px;}
 
-.ml{margin-left: 30%;}
-.mll{margin-left:60%; } 
-.mlll{margin-left:40%; }
+.me{margin-left: 10%;}
+.mee{margin-left:50%; } 
+.meee{margin-left:40%; }
 
 .w1{width:50%;
 float: left;}
@@ -112,19 +136,7 @@ text-align: center;}
 
 
 
-.division ul{
-    text-align: right;
-    border: 1px solid crimson;
-    float: left;
-    height:200px;
-}
 
-.division ul li{
-    text-transform: capitalize;
-    list-style-type: none;
-    font-size: .8em;
-    line-height: 2em;
-}
 
 
 .example{
@@ -136,17 +148,17 @@ text-align: center;}
 
 #logo{
     width: 190px;
-    margin: 20px;
+    margin: 10px;
     padding: 0px 10px;
     /* border: 1px solid #000000; */
 }
 
 
 #tokyo{
-    width: 80%;
+    width: 75%;
     padding: 0px;
     margin: 0px;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
 }
 
 
@@ -172,37 +184,15 @@ h2{
 
 
 
-
-.carousel{
-    border: 1PX solid green;
-    width:  80%;
-  height: auto;
+/* .carousel{
+    background-color: aqua;
 }
+
+
 
 .carousel-item{
-    border: 1PX solid black;
-    widows: 80%;
-    height: 100%;
+   background-color: aqua
+    text-align: center;
 }
-
-
-.carousel-item.p{
-    background-color: grey;
-    
-}
-
-
- /* label focus color */
- .input-field input[type=text]:focus + label {
-    color: #000;
-}
-/* label underline focus color */
-  .input-field input[type=text]:focus {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-  }
-
-
-
-
+ */
 
