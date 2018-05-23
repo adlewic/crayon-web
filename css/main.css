@@ -30,14 +30,22 @@ nav{
 }
 
 nav ul{
-    width: 20%;
-
+    width: 15%;
+ 
 }
 
-nav ul li {
-    color: #000;
+nav ul li{
     width: 100%;
 }
+
+nav ul li a:link{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
+
+
+
 
 #a-frame{
     /* border :1px solid black; */
@@ -164,33 +172,59 @@ text-align: center;}
 
 
 
-.description{
+.categoria{
     text-transform: uppercase;
     font-family: "AauxPro-Regular";
-    text-align:center;
-    margin-left: 30%;
+    text-align: right;
+    color: black;
+
 }
 
 h2{
     text-transform: uppercase;
-    border: 1px pink solid;
     font-family: "AauxPro-Regular";
     font-size: 12pt;
     height: auto;
-    width: 50%;
-    margin-left: 30%
     margin-top: 0px; 
     text-align:right;
 }
 
 
 
-.carousel-item{
-
-}
 
 .carousel{
     border: 1px solid black;
-    height: 600px;
-    width: auto;
 }
+
+.tabs-content.carousel .carousel-item {
+    width: 100%;
+    }
+
+
+
+.zimg{
+    z-index: -1;
+}
+
+.titlew{
+    border: 1px solid green;
+    width: 40%;
+    margin-top: 100px;
+    z-index: 3;
+}
+
+
+.carousel-item{
+    margin: 10px;
+}
+
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
