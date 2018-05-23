@@ -5,7 +5,7 @@
             full_width: true,
             indicators: true
         });
-        $(".carousel").css({ "height": "30%"});
+        $(".carousel").css({ "height": "22%"});
         
       });
 
