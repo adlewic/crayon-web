@@ -18,29 +18,20 @@ body{
 p { margin:5px 0 10px 0; }
 
 
-
-
 nav{   
     z-index:+1;
     font-family: "AauxPro-Regular";
     text-transform: uppercase;
-    position: sticky;
-    top: 0%;
-    background-color: white;
+
 }
 
-nav ul{
-    width: 15%;
- 
-}
+
 
 nav ul li{
-    width: 100%;
-}
 
-nav ul li a:link{
-    width: 100%;
+    font-kerning: 3px;
     margin: 15px 0px 15px 0px;
+   letter-spacing: 1px;
 }
 
 
@@ -143,11 +134,6 @@ float: left;}
 .sol{width: 80%;
 text-align: center;}
 
-
-
-
-
-
 .example{
     background-color: chartreuse;
 
@@ -156,10 +142,9 @@ text-align: center;}
 }
 
 #logo{
-    width: 190px;
-    margin: px;
-    padding: 0px 10px;
-    /* border: 1px solid #000000; */
+    width: 180px;
+    margin:25px 0px 0px 25px;
+    border: 1px solid #000000;
 }
 
 
@@ -209,6 +194,17 @@ h2{
 }
 
 
+.titlew h3{
+    text-transform: uppercase;
+    font-family: "AauxPro-Regular";
+    font-size: 18pt;
+    height: auto;
+    margin-top: 0px; 
+    text-align:right;
+    
+}
+
+
 /* .carousel-item{
     margin: 10px;
 } */
@@ -234,3 +230,19 @@ text-transform: uppercase;
     width: 100%;
     background-color: black;
 }
+
+#languages{
+    background-color: aqua;
+    width: 15%;
+    float: right;
+    padding: 30px 0px 0px 0px;  
+}
+
+.pro{
+    height: 600px;
+    border: 1px solid black;
+}
+
+.carousel .carousel-item{
+    width:100%;
+  }

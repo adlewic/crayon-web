@@ -4,6 +4,9 @@ $(document).ready(function() {
 	  anchors: ['onepage', 'twopage', 'threepage', 'fourpage', 'fivePage'],
 	  menu: '#menu',
 	  continuousVertical: true,
-	  verticalCentered: false
+		verticalCentered: false,
+		scrollingSpeed: 1500,
+		easing: 'easeInOutCubic'
+
 	});
 });
