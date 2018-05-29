@@ -18,21 +18,6 @@ body{
 p { margin:5px 0 10px 0; }
 
 
-nav{   
-    z-index:+1;
-    font-family: "AauxPro-Regular";
-    text-transform: uppercase;
-
-}
-
-
-
-nav ul li{
-
-    font-kerning: 3px;
-    margin: 15px 0px 15px 0px;
-   letter-spacing: 1px;
-}
 
 
 
@@ -165,7 +150,7 @@ text-align: center;}
 
 }
 
-h2{
+h3{
     text-transform: uppercase;
     font-family: "AauxPro-Regular";
     font-size: 12pt;
@@ -173,6 +158,17 @@ h2{
     margin-top: 0px; 
     text-align:right;
 }
+
+
+h5{
+    text-transform: uppercase;
+    font-family: "AauxPro-Regular";
+    font-size: 11pt;
+    height: auto;
+    margin-top: 0px; 
+    text-align:right;
+}
+
 
 
 .carousel{
@@ -246,3 +242,13 @@ text-transform: uppercase;
 .carousel .carousel-item{
     width:100%;
   }
+
+
+
+/* inicio index , html  */
+
+nav img {
+    width: 200px;
+    margin: 20px 10px;
+}
+
