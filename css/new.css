@@ -181,3 +181,17 @@ h5{
 wrapper{
     margin-top: 30px;
 }
+
+
+
+.division h4{
+    text-transform: uppercase;
+    /* border: 1px pink solid; */
+    font-family: "Helvetica";
+    font-weight: 500;
+    font-size: 12pt;
+    height: auto;
+    float: left;
+    transform: rotate(90deg);
+    transform-origin: top right;
+}
