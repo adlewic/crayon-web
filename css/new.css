@@ -26,6 +26,7 @@ nav ul {
     width:50%;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 nav ul li{
@@ -79,7 +80,11 @@ nav ul li a{
   }
 
 
-  section{
+wrapper{padding: 1rem;}
+
+
+.section{
+
       height:800px;
       font-family: "AauxPro-Regular";
   }
@@ -187,9 +192,8 @@ letter-spacing: 1px;
 
 
 
-wrapper{
-    margin-top: 30px;
-}
+
+
 
 
 
