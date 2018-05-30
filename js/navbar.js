@@ -8,4 +8,8 @@ $(document).ready(function(){
 
     $(".tabs-content").css('height','600px');
 
+
+    $('#fullpage').fullpage();
+
   });
+

@@ -81,6 +81,7 @@ nav ul li a{
 
   section{
       height:800px;
+      font-family: "AauxPro-Regular";
   }
 
 
@@ -161,11 +162,19 @@ h5{
     width: 25%;
     margin-top: 100px;
 }
+.categoria h5{
+    font-style: italic;
+}
+
+.categoria p{
+    text-transform: none;
+}
 
 
 .division{
-    letter-spacing: 1px;
+letter-spacing: 1px;
    text-transform: capitalize;
+   margin-bottom: 4em;
 }
 
 
@@ -173,7 +182,7 @@ h5{
     /* background-color: hotpink; */
     margin: auto;
     overflow: hidden;
-    margin-bottom: 8em;
+    margin-bottom: 5em;
 }
 
 
@@ -186,12 +195,43 @@ wrapper{
 
 .division h4{
     text-transform: uppercase;
-    /* border: 1px pink solid; */
-    font-family: "Helvetica";
-    font-weight: 500;
-    font-size: 12pt;
+  /* background-color: hotpink; */
+  font-family: "AauxPro-Regular";
+    font-size: 13pt;
     height: auto;
-    float: left;
+    /* float: left; */
+     transform: rotate(90deg);
+    transform-origin: top right; 
+    margin-left: 10 0px;
+    width: 200px;
+}
+
+
+.division li{
+    font-family: "AauxPro-Regular";
+    margin-bottom: 5px;
+}
+
+
+.space{
+   margin-top: 100px;
+   margin-left: 50px;
+}
+
+.vertical{
+    transform-origin: bottom left; 
     transform: rotate(90deg);
-    transform-origin: top right;
+}
+
+
+.a-box p{
+    margin-left: 100px;
+}
+
+.lef{
+    margin-left: 100px;
+}
+
+form{
+    margin-top: 100px;
 }
